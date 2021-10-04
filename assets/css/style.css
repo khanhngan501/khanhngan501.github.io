@@ -173,12 +173,16 @@ html{
 }
 
 #header .nav > li:hover,
-#header .nav li:hover > a,
-#header .bakery_name:hover
+#header .nav li:hover > a
 {
     cursor: pointer;
     color: #c69f7c;
     text-decoration: underline;
+}
+
+#header .bakery_name:hover{
+    cursor: pointer;
+    color: #c69f7c;
 }
 
 
@@ -460,7 +464,8 @@ html{
 #content .section-sub-heading{
     font-size: 30px;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 0px;
+    margin-bottom: 12px;
     font-style: italic;
     font-family: 'Dancing Script', cursive;
 }
@@ -571,4 +576,45 @@ html{
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
+}
+
+#content .cart-section{
+    color: #fff;
+    background: rgb(51,27,7);
+    margin-left:  70px;
+    margin-right: 70px;
+    margin-top: 70px;
+}
+#content .the-best-seller-name
+{
+    font-size: 27px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+#content .cart-list {
+    margin-top: 32px;
+    
+}
+#content .cart-img
+{
+    width: 100%;
+    display: block;
+}
+#content .cart-img:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+#content .the-best-seller-body
+{
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+
+/* FOOTER */
+#footer{
+    height: 240px;
+    background-color: #331B07;
 }
