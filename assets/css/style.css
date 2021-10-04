@@ -50,6 +50,10 @@ html{
     padding-right: 8px;
 }
 
+.col-full{
+    width: 100%;
+}
+
 .col-second{
     width: 50%;
 }
@@ -66,8 +70,20 @@ html{
     margin-top: 100px;
 }
 
+.mt-8{
+    margin-top: 8px !important;
+}
+
+.mt-16{
+    margin-top: 16px !important;
+}
+
 .pt-100 {
     padding-top: 100px;
+}
+
+.pull-right{
+    float: right !important;
 }
 
 /* Định dạng chữ */
@@ -587,7 +603,7 @@ html{
 }
 #content .the-best-seller-name
 {
-    font-size: 27px;
+    font-size: 20px;
     font-weight: 600;
     padding-bottom: 8px;
 }
@@ -613,8 +629,127 @@ html{
     letter-spacing: 1px;
 }
 
+/*Contact Content*/
+#content .contact-section{
+    padding: 40px 120px 60px;
+    width: 100%;
+}
+#content .contact-heading{
+    padding-bottom: 12px;
+    color: rgb(35, 28, 7);
+    letter-spacing: 1px;
+}
+#content .contact-body{
+    letter-spacing: 1px;
+    line-height: 1.4;
+    color: #2b2d42;
+}
+.contact-form{
+    font-size: 25px;
+}
+.contact-form .form-control{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-left: -18px;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.btn
+{
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 8px 14px;
+    display: inline-block;
+    margin-top: 10px;
+    border: none;
+    margin-right: 36px;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
 /* FOOTER */
 #footer{
     height: 240px;
     background-color: #331B07;
+    color: #fff;
+    padding: 50px 60px;
+    line-height: 1.4;
+}
+
+#footer .footer-name{
+    text-align: center;
+}
+
+#footer .footer-name-heading{
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+}
+
+#footer .socials-list{
+    font-size: 24px;
+    
+}
+
+#footer .socials-list a{
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 24px;
+}
+
+#footer .socials-list a:hover{
+    color: rgba(255, 255, 255, 0.4);
+}
+
+#footer .footer-heading{
+    font-size: 25px;
+    font-family: 'Special Elite', cursive;
+    font-weight: 5px;
+}
+
+#footer .footer-about-us{
+    margin-left: 48px;
+    padding-left: 60px;
+}
+
+#footer .footer-about-us li{
+    list-style: none;
+}
+
+
+#footer .footer-about-us li a,
+#footer .reser-content{
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.4;
+    font-family: "Varela Round", sans-serif;
+    font-size: 18px;
+}
+
+#footer .footer-about-us li a:hover{
+    text-decoration: underline;
+    
+}
+
+#footer .about-arrow{
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+#footer .reser-content a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer .reser-content a:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+#footer .reser-content p{
+    padding-bottom: 4px;
 }
