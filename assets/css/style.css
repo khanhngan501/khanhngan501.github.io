@@ -127,7 +127,7 @@ html{
 #header .bakery_name:hover
 {
     cursor: pointer;
-    color: #c69f7c;
+    color: #331B07;
 }
 
 .tooltip-home {
@@ -192,13 +192,13 @@ html{
 #header .nav li:hover > a
 {
     cursor: pointer;
-    color: #c69f7c;
+    color: #331B07;
     text-decoration: underline;
 }
 
 #header .bakery_name:hover{
     cursor: pointer;
-    color: #c69f7c;
+    color: #331B07;
 }
 
 
@@ -208,9 +208,9 @@ html{
 
 #header .nav li .btn-signIn{
     padding: 8px 20px;
-    border-style: solid #c69f7c;
+    border-style: solid #331B07;
     border-radius: 25px;
-    background-color: #c69f7c;
+    background-color: #331B07;
     text-transform: none;
     margin-left: 10px;
 }
@@ -256,7 +256,7 @@ html{
 #header .subnav li:hover
 {
     cursor: pointer;
-    background-color: #c69f7c;
+    background-color: #331B07;
 }
 
 #header .subnav li:hover a{
@@ -307,7 +307,7 @@ html{
     padding: 0px;
     border: none;
     z-index: 1;
-    background-color: #c69f7c;
+    background-color: #331B07;
 }
 
 #overflow{
