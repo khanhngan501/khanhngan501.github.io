@@ -102,11 +102,14 @@ html{
 {
     width: 100%;
     height: var(--hearder-height);
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     padding: 0px 50px;
     position: fixed;
 }
 
+#header:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
 /* .header-container{
     /* padding: 0px 50px;
 } */
@@ -521,7 +524,7 @@ html{
     /* padding-top: 200px; */
     /* padding-right:200px; */
     line-height: 1.5;
-    text-align: justify;
+    text-align: left;
 }
 
 #content .menu-script{
